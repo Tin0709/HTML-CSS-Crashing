@@ -4,22 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Home page</title>
+    <title>Marioclub</title>
   </head>
   <body>
-    <h1>HTML Forms</h1>
+    <header>
+      <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+      <img src="images/banner.png" alt="Marioclub welcome banner" />
+      <div class="welcome">
+        <h2>
+          Welcome to <br />
+          <span>Marioclub</span>
+        </h2>
+      </div>
+    </section>
 
-    <form>
-      <label for="username">User name:</label>
-      <input type="text" id="username" />
-      <br />
-      <br />
-      <label for="email">Enter email:</label>
-      <input type="email" / id="email">
-      <br />
-      <br />
-      <label for="password">Password</label>
-      <input type="password" id="password" />
-    </form>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="" class="join">Join the club</a></li>
+        <li><a href="">Latest news</a></li>
+        <li><a href="">New games</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+        <h2>It's me, Mario</h2>
+        <p>
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+          Whimsical unicorns dance gracefully under the moonlight, casting
+          colorful shadows on the shimmering lake, enchanting all who behold.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="images/thumb-1.png" alt="thumb-1" /></li>
+        <li><img src="images/thumb-2.png" alt="thumb-2" /></li>
+      </ul>
+    </main>
+
+    <section class="join">
+      <h2>Join Today!</h2>
+      <p>
+        In the bustling city, amidst the cacophony of sounds, a lone violinist
+        plays a haunting melody, weaving emotions into the fabric of the urban
+        chaos. Pedestrians pause, momentarily entranced by the ethereal music,
+        their hurried steps slowing as they momentarily escape into the realm of
+        dreams and nostalgia.
+      </p>
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="Type email to join"
+          required
+        />
+      </form>
+    </section>
+
+    <footer>
+      <p class="copyright">
+        Whimsical unicorns dance gracefully under the moonlight, casting
+        colorful shadows on the shimmering lake, enchanting all who behold.
+      </p>
+    </footer>
   </body>
 </html>
